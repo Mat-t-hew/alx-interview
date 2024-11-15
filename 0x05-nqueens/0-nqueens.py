@@ -95,7 +95,7 @@ def solve(matrix, new_column):
             matrix[new_row][new_column] = 0
     return None
 
-
+ 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
